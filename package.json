@@ -16,16 +16,7 @@
         "react-scripts": "3.4.2"
     },
     "scripts": {
-        "start": "run-p start:**",
-        "start:app": "react-scripts start",
-        "start:lambda-pokemon": "netlify-lambda serve src/functions/federated-graphql-pokemon -p 9001",
-        "start:lambda-simple": "netlify-lambda serve src/functions/federated-graphql-simple -p 9002",
-        "start:lambda-gateway": "netlify-lambda serve src/functions/graphql-gateway",
-        "build": "run-p build:**",
-        "build:app": "react-scripts build",
-        "build:lambda-simple": "netlify-lambda build src/functions/federated-graphql-simple",
-        "build:lambda-pokemon": "netlify-lambda build src/functions/federated-graphql-pokemon --config ./webpack.config.js",
-        "build:lambda-gateway": "netlify-lambda build src/functions/graphql-gateway"
+        "build": "react-scripts build"
     },
     "eslintConfig": {
         "extends": "react-app"
