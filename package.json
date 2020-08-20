@@ -15,6 +15,7 @@
         "react-scripts": "3.4.2"
     },
     "scripts": {
+        "prebuild": "cd src/functions/federated-graphql-pokemon && npm i",
         "build": "react-scripts build"
     },
     "eslintConfig": {
